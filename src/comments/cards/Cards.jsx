@@ -147,6 +147,72 @@ const Cards = () => {
                     <p className="opacity-60"> 100g</p>
                   </div>
                 </li>
+
+                <li className=" items items9  px-5 pt-64 pb-2">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Coconut</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        990
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">масло для тела</p>
+                    <p className="opacity-60"> 300ml</p>
+                  </div>
+                </li>
+
+                <li className=" items items10  px-5 pt-64 pb-2">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">
+                      Lavender
+                    </h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        290
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">мыло ручной работы</p>
+                    <p className="opacity-60"> 50g</p>
+                  </div>
+                </li>
+
+                <li className=" items items11  px-5 pt-64 pb-2">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Lotos</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        890
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">маска для лица</p>
+                    <p className="opacity-60">50ml</p>
+                  </div>
+                </li>
+
+                <li className=" items items12  px-5 pt-64 pb-2">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Earth</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        90
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">бомбочка для ванны</p>
+                    <p className="opacity-60">20g</p>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
