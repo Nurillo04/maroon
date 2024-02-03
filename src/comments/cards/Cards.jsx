@@ -17,7 +17,7 @@ const Cards = () => {
               </button>
             </div>
             <div className="cards">
-              <ul className=" flex justify-between items-center">
+              <ul className=" flex justify-between items-center flex-wrap">
                 <li className=" items items1 px-5 pt-72 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">High</h6>
@@ -66,7 +66,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items1 px-5 pt-72 ">
+                <li className=" items items4 px-5 pt-72 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Milk</h6>
                     <div className="flex">
@@ -79,6 +79,72 @@ const Cards = () => {
                   <div className=" flex justify-between items-center">
                     <p className="opacity-60">масло для тела</p>
                     <p className="opacity-60"> 150ml</p>
+                  </div>
+                </li>
+
+                <li className=" items items5 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">
+                      Paradise
+                    </h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        590
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">минеральная пудра</p>
+                    <p className="opacity-60"> 15g</p>
+                  </div>
+                </li>
+
+                <li className=" items items6 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Sun</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        90
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">бомбочка для ванны</p>
+                    <p className="opacity-60"> 20g</p>
+                  </div>
+                </li>
+
+                <li className=" items items7 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Violet</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        890
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">крем для лица</p>
+                    <p className="opacity-60"> 50g</p>
+                  </div>
+                </li>
+
+                <li className=" items items8 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Clean</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        490
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">маска для лица</p>
+                    <p className="opacity-60"> 100g</p>
                   </div>
                 </li>
               </ul>
