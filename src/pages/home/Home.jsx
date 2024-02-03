@@ -13,7 +13,7 @@ import "./Home.scss";
 const Home = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Bestseller />
       <Spring />
@@ -21,7 +21,7 @@ const Home = () => {
       <History />
       <Advertising />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

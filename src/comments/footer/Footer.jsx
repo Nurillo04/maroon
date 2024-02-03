@@ -6,6 +6,7 @@ import { facebook } from "../../assets";
 import { instagram } from "../../assets";
 import { twitter } from "../../assets";
 import { footerC } from "../../assets";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,10 +20,18 @@ const Footer = () => {
                   <img src={logo} alt="rasm" />
                   <nav>
                     <ul className="flex justify-between items-center gap-6">
-                      <li className="text-base">Каталог</li>
-                      <li className="text-base">О нас</li>
-                      <li className="text-base">Магазины</li>
-                      <li className="text-base">Контакты</li>
+                      <NavLink className="item" to="/">
+                        <li className="text-base">О нас</li>
+                      </NavLink>
+                      <NavLink className="item" to="/catalog">
+                        <li className="text-base">Каталог</li>
+                      </NavLink>
+                      <NavLink className="item" to="/contact">
+                        <li className="text-base">Контакты</li>
+                      </NavLink>
+                      <NavLink className="item" to="/details">
+                        <li className="text-base">Магазины</li>
+                      </NavLink>
                     </ul>
                   </nav>
                 </div>

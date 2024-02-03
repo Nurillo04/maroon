@@ -2,7 +2,11 @@ import React from "react";
 import "./Details.scss";
 
 const Details = () => {
-  return <div>Details</div>;
+  return (
+    <div>
+      <h1>Details</h1>
+    </div>
+  );
 };
 
 export default Details;

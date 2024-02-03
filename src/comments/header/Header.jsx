@@ -1,8 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+// import { BrowserRouter as Router, Routers, Route } from "react-router-dom";
 
 import { logo } from "../../assets";
 import { odam } from "../../assets";
 import { korzinka } from "../../assets";
+import Home from "../../pages/home/Home";
 
 const Header = () => {
   return (
@@ -16,9 +19,18 @@ const Header = () => {
             <div className="wrapper__right">
               <nav className="flex justify-between items-center gap-x-14  ">
                 <ul className="flex justify-between items-center gap-6">
-                  <li className="text-base">Каталог</li>
-                  <li className="text-base">О нас</li>
-                  <li className="text-base">Контакты</li>
+                  <NavLink className="item" to="/">
+                    <li className="text-base">О нас</li>
+                  </NavLink>
+                  <NavLink className="item" to="/catalog">
+                    <li className="text-base">Каталог</li>
+                  </NavLink>
+                  <NavLink className="item" to="/contact">
+                    <li className="text-base">Контакты</li>
+                  </NavLink>
+                  <NavLink className="item" to="/details">
+                    <li className="text-base">Магазины</li>
+                  </NavLink>
                 </ul>
                 <ul>
                   <li>
