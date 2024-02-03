@@ -23,6 +23,7 @@ import instagram from "./IMG/Svg/instagram.svg";
 import map from "./IMG/png/map.png";
 import footerC from "./IMG/Svg/2020.svg";
 import rasm1 from "./IMG/png/rasm1.png";
+import sum from "./IMG/Svg/₽.svg";
 
 export {
   logo,
@@ -49,4 +50,5 @@ export {
   map,
   footerC,
   rasm1,
+  sum,
 };

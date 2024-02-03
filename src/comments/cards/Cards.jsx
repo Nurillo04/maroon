@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cards.scss";
-import { rasm1 } from "../../assets";
+import { sum } from "../../assets";
 
 const Cards = () => {
   return (
@@ -17,18 +17,69 @@ const Cards = () => {
               </button>
             </div>
             <div className="cards">
-              <ul>
-                <li className="bg-[url('../../../public/banner.png')] ">
-                  {/* <img src={rasm1} alt="rasm" /> */}
-                  {/* <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quod minus ratione nobis. Quos odit ad numquam neque.
-                    Nostrum aspernatur, dolor odio praesentium repellendus
-                    necessitatibus deleniti accusamus ullam eos sint aut
-                    voluptatum expedita corporis doloribus eaque, ipsum, vitae
-                    perspiciatis! Explicabo culpa aliquid atque quis.
-                    Praesentium?
-                  </p> */}
+              <ul className=" flex justify-between items-center">
+                <li className=" items items1 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">High</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        990
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">крем для лица</p>
+                    <p className="opacity-60"> 50ml</p>
+                  </div>
+                </li>
+
+                <li className=" items items2 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Rest</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        690
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">минеральная пудра</p>
+                    <p className="opacity-60"> 20g</p>
+                  </div>
+                </li>
+
+                <li className=" items items1 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Rose</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        890
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">крем для лица</p>
+                    <p className="opacity-60"> 50ml</p>
+                  </div>
+                </li>
+
+                <li className=" items items1 px-5 pt-72 ">
+                  <div className=" flex justify-between items-center mb-3">
+                    <h6 className="font-medium text-2xl  font-sans">Milk</h6>
+                    <div className="flex">
+                      <span className="font-medium text-1xl mr-1 font-sans">
+                        790
+                      </span>
+                      <img src={sum} alt="rasm" />
+                    </div>
+                  </div>
+                  <div className=" flex justify-between items-center">
+                    <p className="opacity-60">масло для тела</p>
+                    <p className="opacity-60"> 150ml</p>
+                  </div>
                 </li>
               </ul>
             </div>
