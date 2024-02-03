@@ -18,7 +18,7 @@ const Cards = () => {
             </div>
             <div className="cards">
               <ul className=" flex justify-between items-center flex-wrap">
-                <li className=" items items1 px-5 pt-72 ">
+                <li className=" items items1 px-5 pt-64 pb-2">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">High</h6>
                     <div className="flex">
@@ -34,7 +34,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items2 px-5 pt-72 ">
+                <li className=" items items2  px-5 pt-64 pb-2 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Rest</h6>
                     <div className="flex">
@@ -50,7 +50,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items1 px-5 pt-72 ">
+                <li className=" items items1  px-5 pt-64 pb-2 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Rose</h6>
                     <div className="flex">
@@ -66,7 +66,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items4 px-5 pt-72 ">
+                <li className=" items items4  px-5 pt-64 pb-2">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Milk</h6>
                     <div className="flex">
@@ -82,7 +82,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items5 px-5 pt-72 ">
+                <li className=" items items5  px-5 pt-64 pb-2 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">
                       Paradise
@@ -100,7 +100,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items6 px-5 pt-72 ">
+                <li className=" items items6 px-5 pt-64 pb-2 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Sun</h6>
                     <div className="flex">
@@ -116,7 +116,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items7 px-5 pt-72 ">
+                <li className=" items items7  px-5 pt-64 pb-2 ">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Violet</h6>
                     <div className="flex">
@@ -132,7 +132,7 @@ const Cards = () => {
                   </div>
                 </li>
 
-                <li className=" items items8 px-5 pt-72 ">
+                <li className=" items items8  px-5 pt-64 pb-2">
                   <div className=" flex justify-between items-center mb-3">
                     <h6 className="font-medium text-2xl  font-sans">Clean</h6>
                     <div className="flex">
